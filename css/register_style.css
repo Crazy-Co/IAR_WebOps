@@ -1,0 +1,213 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* body css */
+body{
+   background-color: cornsilk;
+    background-image: url("../images/site_bg.jpg");
+    background-size: contain;
+}
+
+/* Nav bar css */
+.container {
+    position: fixed;
+    display: block;
+    background-color: rgb(31, 5, 5);
+    padding: 12px;
+    z-index:2;
+    height: 40px;
+    top: 0px;
+    width: 97vw;
+}
+
+.right ul {
+    display: inline-block;
+}
+
+.list_item a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 21px;
+    margin: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 20%;
+}
+
+.list_item a:hover {
+    color: rgb(249, 179, 151);
+}
+
+.list_item {
+    display: inline-block;
+}
+
+.left img{
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    left: -96px;
+    top: -8px;
+}
+
+.left {
+    display: flex;
+    color: cornsilk;
+    height: 42px;
+    margin: auto;
+    padding: 2px 100px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+
+.right hr{
+    display: inline;
+    width: 7px;
+    height: 5px;
+    margin: 1px;
+}
+
+/* Form css */
+
+.form{
+    background-color: rgb(255, 255, 255);
+    margin: 65px auto;
+    padding: 20px;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    color: darkblue;
+    display: flex;
+    width: 373px;
+    min-height: 400px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 1px 1px 9px black;
+    max-height: fit-content;
+    min-height: 432px;
+}
+
+.form h2{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+}
+
+.form label{
+    font-size: 21px;
+    margin : 10px;
+    padding: 4px;
+    float: left;
+    color: black;
+    font-family: math;
+}
+
+.form input {
+    float: right;
+    background-color: rgb(232, 249, 255);
+    text-align: center;
+    font-size: 17px;
+    border: 4px double #0076b1;
+    border-radius: 20px;
+    margin: 9px 12px;
+    padding: 4px;
+}
+
+.form input:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.form hr{
+    margin: -19px;
+    padding: 0px;
+    width: 336px;
+}
+
+
+/* password message css */
+#message{
+    background-color: rgb(232, 249, 255);
+    color: black;
+    margin: auto;
+    width: auto;
+    max-width: 1337px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#msgText{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    /* margin: 2px auto; */
+}
+#msgCont{
+    /* margin: 2px; */
+    padding: 8px 0px;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+/* footer css */
+
+footer{
+    background-color: rgb(31, 5, 5);
+    color: antiquewhite;
+    display: flex;
+    margin: 46px auto;
+    position: absolute;
+    bottom: initial;
+    padding: 11px;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: row;
+    width: 97vw;
+}
+
+.foot{
+    display: flex;
+    font-size: 18px;
+}
+
+.foot ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 2px 5px;
+    padding: 2px 5px;
+    border-left: 1px solid white;
+}
+
+.foot ul li a:hover{
+    color: rgb(248, 231, 171);
+    text-shadow: 0px 2px 2px white;
+}
+
+.foot li a{
+    text-decoration:none;
+    color: aliceblue;
+    padding: 0px 30px;
+}
