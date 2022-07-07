@@ -4,6 +4,6 @@
 
        mail("khushdevyogi001@gmail.com","Inquiry For IAR-WebOps",$msg);
 	   
-header('location:index.html');
+header('location:IAR_WebOps/index.html');
 exit(0);
 ?>
